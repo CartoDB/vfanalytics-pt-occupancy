@@ -1,25 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
 @font-face {
   font-family: "Vodafone";
-  src: url("/assets/fonts/vodafone_font_exbd-webfont.woff2") format("woff2"), url("/assets/fonts/vodafone_font_exbd-webfont.woff") format("woff");
+  src: url("assets/fonts/vodafone_font_exbd-webfont.woff2") format("woff2"), url("assets/fonts/vodafone_font_exbd-webfont.woff") format("woff");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: "Vodafone";
-  src: url("/assets/fonts/vodafone_font_lt-webfont.woff2") format("woff2"), url("/assets/fonts/vodafone_font_lt-webfont.woff") format("woff");
+  src: url("assets/fonts/vodafone_font_lt-webfont.woff2") format("woff2"), url("assets/fonts/vodafone_font_lt-webfont.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Vodafone";
-  src: url("/assets/fonts/vodafone_font_rg-webfont.woff2") format("woff2"), url("/assets/fonts/vodafone_font_rg-webfont.woff") format("woff");
+  src: url("assets/fonts/vodafone_font_rg-webfont.woff2") format("woff2"), url("assets/fonts/vodafone_font_rg-webfont.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Vodafone";
-  src: url("/assets/fonts/vodafone_font_rgbd-webfont.woff2") format("woff2"), url("/assets/fonts/vodafone_font_rgbd-webfont.woff") format("woff");
+  src: url("assets/fonts/vodafone_font_rgbd-webfont.woff2") format("woff2"), url("assets/fonts/vodafone_font_rgbd-webfont.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -156,7 +156,7 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   height: 30px;
   border-radius: 2px;
   background-color: #FFF;
-  background-image: url("/assets/img/icons/positive-clear/3d-view.svg");
+  background-image: url("assets/img/icons/positive-clear/3d-view.svg");
   background-repeat: no-repeat;
   background-position: center;
   pointer-events: none;
@@ -166,11 +166,11 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
 ._3dcontrol.enable {
   pointer-events: all;
   cursor: pointer;
-  background-image: url("/assets/img/icons/accent/3d-view.svg");
+  background-image: url("assets/img/icons/accent/3d-view.svg");
 }
 ._3dcontrol.enable.active {
   background-color: #E60000;
-  background-image: url("/assets/img/icons/negative/3d-view.svg");
+  background-image: url("assets/img/icons/negative/3d-view.svg");
 }
 
 ._3dmarker {
@@ -195,7 +195,7 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   border-radius: 2px;
   background-color: #FFF;
   box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.3);
-  background-image: url("/assets/img/brands/neighborhood/logo.svg");
+  background-image: url("assets/img/brands/neighborhood/logo.svg");
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: center;
@@ -387,7 +387,7 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   content: "";
   width: 48px;
   height: 24px;
-  background: #F2F2F4 url("/assets/img/icons/accent/options.svg") no-repeat center;
+  background: #F2F2F4 url("assets/img/icons/accent/options.svg") no-repeat center;
   color: #626775;
   position: absolute;
   top: 0;
@@ -397,7 +397,7 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   cursor: pointer;
 }
 .app-header div.avatar .options.shown:before, .app-header div.avatar .options:hover:before {
-  background: #E60000 url("/assets/img/icons/negative/options.svg") no-repeat center;
+  background: #E60000 url("assets/img/icons/negative/options.svg") no-repeat center;
   color: #FFF;
 }
 .app-header div.avatar .options li {
@@ -453,40 +453,40 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   display: inline-block;
   height: 32px;
   width: 32px;
-  background-image: url("/assets/img/icons/menu_map.svg");
+  background-image: url("assets/img/icons/menu_map.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 .app-header nav ul li a.navMap:before {
-  background-image: url("/assets/img/icons/menu_map.svg");
+  background-image: url("assets/img/icons/menu_map.svg");
 }
 .app-header nav ul li a.navStats:before {
-  background-image: url("/assets/img/icons/menu_chart.svg");
+  background-image: url("assets/img/icons/menu_chart.svg");
 }
 .app-header nav ul li a.navUser:before {
-  background-image: url("/assets/img/icons/menu_users.svg");
+  background-image: url("assets/img/icons/menu_users.svg");
 }
 .app-header nav ul li a.selected {
   background-color: #E60000;
 }
 .app-header nav ul li a.selected.navMap:before {
-  background-image: url("/assets/img/icons/menu_map-sel.svg");
+  background-image: url("assets/img/icons/menu_map-sel.svg");
 }
 .app-header nav ul li a.selected.navStats:before {
-  background-image: url("/assets/img/icons/menu_chart-sel.svg");
+  background-image: url("assets/img/icons/menu_chart-sel.svg");
 }
 .app-header nav ul li a.selected.navUser:before {
-  background-image: url("/assets/img/icons/menu_users-sel.svg");
+  background-image: url("assets/img/icons/menu_users-sel.svg");
 }
 .app-header nav ul li a.disabled {
   cursor: default;
 }
 .app-header nav ul li a.disabled.navStats:before {
-  background-image: url("/assets/img/icons/menu_chart-dis.svg");
+  background-image: url("assets/img/icons/menu_chart-dis.svg");
 }
 .app-header nav ul li a.disabled.navUser:before {
-  background-image: url("/assets/img/icons/menu_users-dis.svg");
+  background-image: url("assets/img/icons/menu_users-dis.svg");
 }
 .app-header .logoVodafone {
   flex: 0 0 48px;
@@ -517,22 +517,22 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   cursor: pointer;
 }
 .app-header .button.fullscreen:before {
-  background-image: url("/assets/img/icons/accent/fullscreen.svg");
+  background-image: url("assets/img/icons/accent/fullscreen.svg");
 }
 .app-header .button.fullscreen:hover:before {
-  background-image: url("/assets/img/icons/negative/fullscreen.svg");
+  background-image: url("assets/img/icons/negative/fullscreen.svg");
 }
 .app-header .button.fullscreen.exit:before {
-  background-image: url("/assets/img/icons/accent/fullscreen-off.svg");
+  background-image: url("assets/img/icons/accent/fullscreen-off.svg");
 }
 .app-header .button.fullscreen.exit:hover:before {
-  background-image: url("/assets/img/icons/negative/fullscreen-off.svg");
+  background-image: url("assets/img/icons/negative/fullscreen-off.svg");
 }
 .app-header .button.home:before {
-  background-image: url("/assets/img/icons/accent/home-vertical.svg");
+  background-image: url("assets/img/icons/accent/home-vertical.svg");
 }
 .app-header .button.home:hover:before {
-  background-image: url("/assets/img/icons/negative/home-vertical.svg");
+  background-image: url("assets/img/icons/negative/home-vertical.svg");
 }
 .app-header .vertical-name {
   transform: rotate(-90deg);
@@ -660,7 +660,7 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   display: inline-block;
   height: 20px;
   width: 20px;
-  background-image: url("/assets/img/icons/negative/close.svg");
+  background-image: url("assets/img/icons/negative/close.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -903,7 +903,7 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   display: inline-block;
   height: 20px;
   width: 20px;
-  background-image: url("/assets/img/icons/accent/zoom-in.svg");
+  background-image: url("assets/img/icons/accent/zoom-in.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -917,7 +917,7 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   display: inline-block;
   height: 20px;
   width: 20px;
-  background-image: url("/assets/img/icons/accent/zoom-out.svg");
+  background-image: url("assets/img/icons/accent/zoom-out.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1022,7 +1022,7 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   display: inline-block;
   height: 20px;
   width: 20px;
-  background-image: url("/assets/img/icons/accent/check.svg");
+  background-image: url("assets/img/icons/accent/check.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1032,7 +1032,7 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0);
 }
 .app-retail #topLeftContainer .columnWrapper .zoomControls .basemapSelector.open .toggleBtn:before {
-  background-image: url("/assets/img/icons/negative/competitor.svg");
+  background-image: url("assets/img/icons/negative/competitor.svg");
 }
 .app-retail #topLeftContainer .columnWrapper .zoomControls .basemapSelector.open .container {
   transform: translateY(0);
@@ -1070,7 +1070,7 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   display: inline-block;
   height: 20px;
   width: 20px;
-  background-image: url("/assets/img/icons/positive-clear/search.svg");
+  background-image: url("assets/img/icons/positive-clear/search.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1089,7 +1089,7 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   display: inline-block;
   height: 20px;
   width: 20px;
-  background-image: url("/assets/img/icons/negative/close.svg");
+  background-image: url("assets/img/icons/negative/close.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1113,7 +1113,7 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
 .app-retail .app-selectfilter .filter ul li:before {
   content: "";
   display: inline-block;
-  background-image: var(--opt-brand-icon, url("/assets/img/brands/whitelabel/logo.svg"));
+  background-image: var(--opt-brand-icon, url("assets/img/brands/whitelabel/logo.svg"));
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1132,16 +1132,16 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   color: #E60000 !important;
 }
 .app-retail .app-selectfilter .filter ul li.carrefour:before {
-  background-image: url("/assets/img/brands/carrefour/logo.svg");
+  background-image: url("assets/img/brands/carrefour/logo.svg");
 }
 .app-retail .app-selectfilter .filter ul li.hipercor:before {
-  background-image: url("/assets/img/brands/hipercor/logo.svg");
+  background-image: url("assets/img/brands/hipercor/logo.svg");
 }
 .app-retail .app-selectfilter .filter ul li.mercadona:before {
-  background-image: url("/assets/img/brands/mercadona/logo.svg");
+  background-image: url("assets/img/brands/mercadona/logo.svg");
 }
 .app-retail .app-selectfilter .filter ul li.cepsa:before {
-  background-image: url("/assets/img/brands/cepsa/logo.svg");
+  background-image: url("assets/img/brands/cepsa/logo.svg");
 }
 .app-retail .app-selectfilter.selected:not(.open) {
   background-color: #E60000;
@@ -1155,7 +1155,7 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
 .app-retail .app-selectfilter.selected:not(.open) .inputWrapper:before {
   content: "";
   display: inline-block;
-  background-image: var(--opt-brand-icon, url("/assets/img/brands/whitelabel/logo.svg"));
+  background-image: var(--opt-brand-icon, url("assets/img/brands/whitelabel/logo.svg"));
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1165,16 +1165,16 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   border-radius: 50%;
 }
 .app-retail .app-selectfilter.selected:not(.open) .inputWrapper.carrefour:before {
-  background-image: url("/assets/img/brands/carrefour/logo.svg");
+  background-image: url("assets/img/brands/carrefour/logo.svg");
 }
 .app-retail .app-selectfilter.selected:not(.open) .inputWrapper.hipercor:before {
-  background-image: url("/assets/img/brands/hipercor/logo.svg");
+  background-image: url("assets/img/brands/hipercor/logo.svg");
 }
 .app-retail .app-selectfilter.selected:not(.open) .inputWrapper.mercadona:before {
-  background-image: url("/assets/img/brands/mercadona/logo.svg");
+  background-image: url("assets/img/brands/mercadona/logo.svg");
 }
 .app-retail .app-selectfilter.selected:not(.open) .inputWrapper.cepsa:before {
-  background-image: url("/assets/img/brands/cepsa/logo.svg");
+  background-image: url("assets/img/brands/cepsa/logo.svg");
 }
 .app-retail .app-selectfilter.selected:not(.open) .inputWrapper input.search {
   padding-right: 6px;
@@ -1334,7 +1334,7 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   display: inline-block;
   height: 20px;
   width: 20px;
-  background-image: url("/assets/img/icons/accent/download.svg");
+  background-image: url("assets/img/icons/accent/download.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1473,7 +1473,7 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   display: inline-block;
   height: 20px;
   width: 20px;
-  background-image: url("/assets/img/icons/accent/filters.svg");
+  background-image: url("assets/img/icons/accent/filters.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1493,7 +1493,7 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   display: inline-block;
   height: 20px;
   width: 20px;
-  background-image: url("/assets/img/icons/negative/arrow_collapse.svg");
+  background-image: url("assets/img/icons/negative/arrow_collapse.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1527,7 +1527,7 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   display: inline-block;
   height: 20px;
   width: 20px;
-  background-image: url("/assets/img/icons/negative/arrow-dir.svg");
+  background-image: url("assets/img/icons/negative/arrow-dir.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1584,7 +1584,7 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   display: inline-block;
   height: 20px;
   width: 20px;
-  background-image: url("/assets/img/icons/accent/check-accent.svg");
+  background-image: url("assets/img/icons/accent/check-accent.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1771,13 +1771,13 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   display: block;
   width: 8px;
   height: 8px;
-  background: url("/assets/img/icons/positive-clear/add-XS.svg") no-repeat center center;
+  background: url("assets/img/icons/positive-clear/add-XS.svg") no-repeat center center;
   opacity: 0;
   transform: translate(calc(-100% - 8px), -50%);
   transition: opacity ease-out 0.1s;
 }
 .app-category-filter .content .multiple .category.selected:before {
-  background-image: url("/assets/img/icons/positive-clear/remove-XS.svg");
+  background-image: url("assets/img/icons/positive-clear/remove-XS.svg");
 }
 .app-category-filter .content .multiple .category:hover:before {
   opacity: 0.5;
@@ -1794,7 +1794,7 @@ perfect-scrollbar .ps__thumb-y, perfect-scrollbar .ps__thumb-x {
   width: 12px;
   height: 12px;
   margin-right: 4px;
-  background-image: url("/assets/img/icons/positive-clear/help-legend.svg");
+  background-image: url("assets/img/icons/positive-clear/help-legend.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
