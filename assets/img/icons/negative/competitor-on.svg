@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/negative/competitor-on</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/negative/competitor-on" fill="#FFFFFF">
+            <path d="M4,6 L16,6 C16.552,6 17,5.553 17,5 L17,1 C17,0.447 16.552,0 16,0 L12,0 C11.448,0 11,0.447 11,1 L11,2 L9,2 L9,1 C9,0.447 8.552,0 8,0 L4,0 C3.448,0 3,0.447 3,1 L3,5 C3,5.553 3.448,6 4,6" id="Fill-3"></path>
+            <polygon id="Fill-5" points="5 15 15 15 15 7 5 7"></polygon>
+            <path d="M18.0005,20 L2.0005,20 C1.5965,20 1.2315,19.757 1.0765,19.383 C0.9215,19.009 1.0075,18.579 1.2935,18.293 L3.2925,16.293 C3.4805,16.105 3.7345,16 4.0005,16 L16.0005,16 C16.2655,16 16.5195,16.105 16.7075,16.293 L18.7075,18.293 C18.9935,18.579 19.0795,19.009 18.9245,19.383 C18.7695,19.756 18.4045,20 18.0005,20" id="Fill-7"></path>
+        </g>
+    </g>
+</svg>

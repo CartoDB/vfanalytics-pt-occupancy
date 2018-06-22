@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/menu_chart-sel</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/menu_chart-sel" fill="#FFFFFF">
+            <g id="Group-10" transform="translate(5.000000, 1.000000)">
+                <path d="M22,30 L22,15 C22,14.448 21.553,14 21,14 L19,14 C18.447,14 18,14.448 18,15 L18,30 L22,30 Z" id="Fill-3"></path>
+                <path d="M16,30 L16,7 C16,6.448 15.553,6 15,6 L13,6 C12.447,6 12,6.448 12,7 L12,30 L16,30 Z" id="Fill-5"></path>
+                <path d="M10,30 L10,1 C10,0.448 9.553,0 9,0 L7,0 C6.447,0 6,0.448 6,1 L6,30 L10,30 Z" id="Fill-7"></path>
+                <path d="M4,30 L4,11 C4,10.448 3.553,10 3,10 L1,10 C0.447,10 0,10.448 0,11 L0,30 L4,30 Z" id="Fill-9"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/accent/visible-no</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/accent/visible-no">
+            <polygon id="Fill-3" fill="#C9CBD1" points="4.4404 3 3.0004 4.44 15.5594 17 17.0004 15.56"></polygon>
+            <path d="M18.7852,9.3984 C16.6812,6.6034 13.4792,5.0004 10.0002,5.0004 C9.3352,5.0004 8.6842,5.0764 8.0452,5.1904 L9.8682,7.0134 C9.9132,7.0114 9.9552,7.0004 10.0002,7.0004 C11.6542,7.0004 13.0002,8.3454 13.0002,10.0004 C13.0002,10.0444 12.9892,10.0864 12.9872,10.1314 L16.0432,13.1884 C17.0792,12.5024 18.0082,11.6344 18.7852,10.6014 C19.0532,10.2454 19.0532,9.7544 18.7852,9.3984" id="Fill-4" fill="#787D8B"></path>
+            <path d="M10,13 C8.346,13 7,11.654 7,10 C7,9.955 7.011,9.913 7.013,9.868 L3.957,6.812 C2.921,7.498 1.992,8.365 1.215,9.398 C0.947,9.755 0.947,10.245 1.215,10.602 C3.318,13.396 6.521,15 10,15 C10.665,15 11.315,14.924 11.955,14.81 L10.132,12.986 C10.087,12.988 10.045,13 10,13" id="Fill-6" fill="#787D8B"></path>
+        </g>
+    </g>
+</svg>

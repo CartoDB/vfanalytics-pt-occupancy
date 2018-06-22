@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Vodafone Analytics</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/img/favicons/manifest.json">
+  <link rel="mask-icon" href="/assets/img/favicons/safari-pinned-tab.svg" color="#e60000">
+  <meta name="theme-color" content="#ffffff">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://libs.cartocdn.com/carto-vl/v0.5.0-beta.3/carto-vl.js"></script>
+  <script src="https://libs.cartocdn.com/mapbox-gl/v0.45.0-carto1/mapbox-gl.js"></script>
+  <link href="https://libs.cartocdn.com/mapbox-gl/v0.45.0-carto1/mapbox-gl.css" rel="stylesheet" />
+  <link href="/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="app-root">
+    <div class="app-header home">
+      <div class="avatar">
+        <a class="button home rounded" href="#" title="Home">Home</a>
+      </div>
+      <div>
+        <span class="vertical-name">Big Data Portugal</span>
+        <a class="button fullscreen rounded" href="" title="Fullscreen">Fullscreen</a>
+      </div>
+    </div>
+    <div class="router-outlet"></div>
+
+    <div class="app-retail">
+      <div id="mapContainer">
+        <div class="app-map darkmatter">
+          <div id="map"></div>
+        </div>
+        <div id="topLeftContainer">
+          <div class="columnWrapper">
+            <div class="app-footer">
+              <p>
+                <img src="/assets/img/logos/vf-symbol.svg">
+                <strong>Vodafone Analytics</strong> &copy; 2018 Vodafone Portugal
+              </p>
+            </div>
+          </div>
+          <div class="app-summary">
+            <div class="count">
+              <div class="content">
+                <p class="value">
+                  Ocupação hoteleira
+                  <span class="datasetDate"><img src="/assets/img/icons/positive-clear/dataset-xs.svg">Média diária 2018</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mapAttrib">
+          <p>&copy; CARTO<span>·</span><span class="attribGeoText">Powered by <img class="cartoLogo" src="/assets/img/logos/carto-logo-negative.svg"></span>
+          </p>
+        </div>
+      </div>
+      <div class="app-filter-bar">
+        <div class="container">
+          <div class="app-category-filter">
+            <div class="title">
+              <img src="/assets/img/icons/negative/places-origin.svg" />
+              <h4>Medidas originais</h4>
+            </div>
+            <div class="content">
+              <div>
+                <div class="category">
+                  <p class="label" id="hotels">Capacidade hoteleira</p>
+                </div>
+                <div class="category">
+                  <p class="label" id="locals">Capacidade local</p>
+                </div>
+                <div class="category">
+                  <p class="label" id="sleeps">Dormidas de turistas</p>
+                </div>
+                <div class="category">
+                  <p class="label" id="area">Area (km<sup>2</sup>)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="app-category-filter" style="border-top: 1px solid #383D4C">
+            <div class="title">
+              <img src="/assets/img/icons/negative/places-origin.svg" />
+              <h4>Índices</h4>
+            </div>
+            <div class="content">
+              <div>
+                <div class="category">
+                  <p class="label" id="dorm_cap_ratio">Dormidas vs. capacidade</p>
+                </div>
+                <div class="category">
+                  <p class="label" id="cap_area_ratio">Capacidade vs. area</p>
+                </div>
+                <div class="category">
+                  <p class="label" id="interest">Interesse geral</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/index.js"></script>
+</body>
+
+</html>
