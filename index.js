@@ -16,6 +16,7 @@ $( document ).ready(function() {
     });
   }
   const source = new carto.source.Dataset('lisbonparishes_v2_json');
+  const source_pois = new carto.source.Dataset('lisbonparishes_v2_json_pois');
 
   const selectOriginalMeasure = function (columnName) {
     recreateMap();
@@ -61,14 +62,30 @@ $( document ).ready(function() {
     const layer = new carto.Layer('parishes', source, viz);
     layer.addTo(map);
 
-    const interactivity = new carto.Interactivity(layer);
-    interactivity.on('featureClick', featureEvent => {
+    const viz_pois = new carto.Viz(`
+      @name: $freguesia
+      @hotel_capacity: $capacidade_hoteleira
+      @local_capacity: $capacidade_al
+      @tourist_sleeps: $dormidas_de_turistas
+      @area: $area_km2
+      @pois: $count_vals
+      @index: $${columnName}
+      width: $count_vals
+      color: rgba(232,66,244,0.5)
+    `);
+    const layer_pois = new carto.Layer('pois', source_pois, viz_pois);
+    layer_pois.addTo(map);
+
+    const interactivity_pois = new carto.Interactivity(layer_pois);
+    interactivity_pois.on('featureClick', featureEvent => {
         const coords = featureEvent.coordinates;
         const feature = featureEvent.features[0];
         new mapboxgl.Popup()
             .setLngLat([coords.lng, coords.lat])
             .setHTML(`
               <h1>${feature.variables.name.value}</h1>
+              <p><strong>Pontos de interesse</strong> ${feature.variables.pois.value}</p>
+              <hr />
               <p><strong>${columnDescription}</strong> ${feature.variables.index.value}</p>
               <hr />
               <p><strong>Capacidade hoteleira</strong> ${feature.variables.hotel_capacity.value}</p>
